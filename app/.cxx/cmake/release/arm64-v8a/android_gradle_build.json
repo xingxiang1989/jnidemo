@@ -1,0 +1,155 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/xiangxing/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"base-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "base-lib",
+			"buildCommand" : "/Users/xiangxing/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a --target base-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dbase_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base/base.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dbase_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base/jvm.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/xiangxing/AndroidProject3/jnidome/app/build/intermediates/cmake/release/obj/arm64-v8a/libbase-lib.so",
+			"toolchain" : "16304435280273789465"
+		},
+		"native-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/xiangxing/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/jni/jni_onload.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/jni/jni_basic_type.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/jni/jni_string.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/jni/jni_reference_type.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/jni/jni_access_field.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/jni/jni_invoke_method.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/jni/jni_reference.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/jni/jni_exception.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/jni/jni_thread.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/jni/jni_wait_thread.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/jni/jni_product_and_consumer_thread.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/jni/jni_bitmap.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/xiangxing/AndroidProject3/jnidome/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "16304435280273789465"
+		},
+		"people-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "people-lib",
+			"buildCommand" : "/Users/xiangxing/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a --target people-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dpeople_lib_EXPORTS -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people -I/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/people/people.cpp",
+					"workingDirectory" : "/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/xiangxing/AndroidProject3/jnidome/app/build/intermediates/cmake/release/obj/arm64-v8a/libpeople-lib.so",
+			"toolchain" : "16304435280273789465"
+		}
+	},
+	"toolchains" : 
+	{
+		"16304435280273789465" : 
+		{
+			"cCompilerExecutable" : "/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/xiangxing/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

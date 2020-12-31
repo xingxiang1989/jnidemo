@@ -1,0 +1,21 @@
+[1/14] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+[2/14] Building CXX object CMakeFiles/native-lib.dir/jni/jni_onload.cpp.o
+[3/14] Building CXX object CMakeFiles/native-lib.dir/jni/jni_basic_type.cpp.o
+[4/14] Building CXX object CMakeFiles/native-lib.dir/jni/jni_string.cpp.o
+[5/14] Building CXX object CMakeFiles/native-lib.dir/jni/jni_reference_type.cpp.o
+[6/14] Building CXX object CMakeFiles/native-lib.dir/jni/jni_access_field.cpp.o
+[7/14] Building CXX object CMakeFiles/native-lib.dir/jni/jni_invoke_method.cpp.o
+[8/14] Building CXX object CMakeFiles/native-lib.dir/jni/jni_reference.cpp.o
+[9/14] Building CXX object CMakeFiles/native-lib.dir/jni/jni_exception.cpp.o
+[10/14] Building CXX object CMakeFiles/native-lib.dir/jni/jni_thread.cpp.o
+[11/14] Building CXX object CMakeFiles/native-lib.dir/jni/jni_wait_thread.cpp.o
+[12/14] Building CXX object CMakeFiles/native-lib.dir/jni/jni_product_and_consumer_thread.cpp.o
+[13/14] Building CXX object CMakeFiles/native-lib.dir/jni/jni_bitmap.cpp.o
+/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/jni/jni_thread.cpp:94:26: warning: format specifies type 'int' but the argument has type 'void *' [-Wformat]
+    LOGD("result is %d", ret);
+                    ~~   ^~~
+/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/base/base.h:10:65: note: expanded from macro 'LOGD'
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,LOG_TAG,__VA_ARGS__)
+                                                                ^~~~~~~~~~~
+1 warning generated.
+[14/14] Linking CXX shared library /Users/xiangxing/AndroidProject3/jnidome/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so

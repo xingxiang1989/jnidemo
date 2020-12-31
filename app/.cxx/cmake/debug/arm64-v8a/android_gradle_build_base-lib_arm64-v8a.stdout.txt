@@ -1,0 +1,3 @@
+[1/3] Building CXX object CMakeFiles/base-lib.dir/base/base.cpp.o
+[2/3] Building CXX object CMakeFiles/base-lib.dir/base/jvm.cpp.o
+[3/3] Linking CXX shared library /Users/xiangxing/AndroidProject3/jnidome/app/build/intermediates/cmake/debug/obj/arm64-v8a/libbase-lib.so

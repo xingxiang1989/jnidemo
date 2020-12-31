@@ -1,0 +1,31 @@
+{
+  "buildFiles": [
+    "/Users/xiangxing/AndroidProject3/jnidome/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/xiangxing/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "native-lib-Release-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/xiangxing/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/xiangxing/AndroidProject3/jnidome/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+      "runtimeFiles": []
+    },
+    "people-lib-Release-arm64-v8a": {
+      "artifactName": "people-lib",
+      "buildCommand": "/Users/xiangxing/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a --target people-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/xiangxing/AndroidProject3/jnidome/app/build/intermediates/cmake/release/obj/arm64-v8a/libpeople-lib.so",
+      "runtimeFiles": []
+    },
+    "base-lib-Release-arm64-v8a": {
+      "artifactName": "base-lib",
+      "buildCommand": "/Users/xiangxing/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a --target base-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/xiangxing/AndroidProject3/jnidome/app/build/intermediates/cmake/release/obj/arm64-v8a/libbase-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

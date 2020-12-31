@@ -1,0 +1,5 @@
+/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/people-lib.dir
+/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/base-lib.dir
+/Users/xiangxing/AndroidProject3/jnidome/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/native-lib.dir

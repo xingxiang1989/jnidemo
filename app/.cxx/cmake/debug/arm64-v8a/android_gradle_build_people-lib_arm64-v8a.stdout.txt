@@ -1,0 +1,2 @@
+[1/2] Building CXX object CMakeFiles/people-lib.dir/people/people.cpp.o
+[2/2] Linking CXX shared library /Users/xiangxing/AndroidProject3/jnidome/app/build/intermediates/cmake/debug/obj/arm64-v8a/libpeople-lib.so
