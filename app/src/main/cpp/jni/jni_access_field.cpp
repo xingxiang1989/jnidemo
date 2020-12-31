@@ -77,7 +77,7 @@ JNIEXPORT jint JNICALL
 Java_com_xingkong_myapplication_jni_JNIAccessField_accessInstanceFiled(JNIEnv *env, jobject thiz,
                                                                        jobject animal) {
 
-    //找到这个类
+    //找到这个类，这个有点跟反射类似。
     jclass cls = env->GetObjectClass(animal);
     jfieldID fid = env->GetFieldID(cls, "name", "Ljava/lang/String;");//找到实例字段
     jstring str = env->NewStringUTF("this is new name");
